@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Case 003 — Subject Trace</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="scene-bg"></div>
+<div class="mist"></div>
+<canvas id="fireflies"></canvas>
+<nav class="topnav">
+  <span class="brand">AVALON RECON</span>
+  <a href="index.html" class="current">Case File</a>
+</nav>
+<div class="desk">
+  <div class="doc">
+    <div class="stamp"><span>AVALON</span><span class="big">III</span><span>RECON</span></div>
+
+    <div class="kicker"><span>Case 003</span><span>Status: Open</span></div>
+
+    <h1 class="title">Subject Trace</h1>
+    <p class="subtitle">A single leaked handle. Everything after it is username reuse.</p>
+
+    <p>A username surfaced in an old breach compilation:</p>
+
+    <div class="flag-box">vale_e77</div>
+
+    <p>No name attached, no address..just a row in a dump nobody bothered to scrub. People rarely use a handle exactly once.</p>
+
+    <div class="search-embed">
+      <div class="search-label">Search a handle, alias, or fragment.</div>
+      <div class="search-row">
+        <input id="q" type="text" placeholder="Search…" autocomplete="off">
+        <button id="go">Search</button>
+      </div>
+      <div class="results" id="results"></div>
+    </div>
+
+    <div class="meta-foot">
+      <span>Case status: Open</span>
+      <span>Filed under: Recon / OSINT</span>
+    </div>
+  </div>
+</div>
+<script src="js/search.js"></script>
+<script src="js/fireflies.js"></script>
+</body>
+</html>
